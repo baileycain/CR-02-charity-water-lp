@@ -13,9 +13,9 @@
     }
 
     body {
-      font-family: Proxima Nova, Avenir;
+      font-family: Arial, sans-serif;
       background: #FFC907;
-      color: #2E9DF7;
+      color: #333;
       line-height: 1.6;
       display: flex;
       flex-direction: column;
@@ -53,7 +53,19 @@
     p.subheadline {
       font-size: 1.2rem;
       margin-bottom: 30px;
-      color: #8BD1CB;
+      color: #555;
+    }
+
+    .cta-wrapper {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+
+    .cta-wrapper img {
+      width: 30px;
+      height: auto;
     }
 
     .cta-button {
@@ -102,14 +114,18 @@
 
   <main>
     <h1>Help Bring Clean Water to Every Person on the Planet</h1>
-    <p class="subheadline">Start Small. Give Big. Changle Lives Around the World - 1 drop at a Time</p>
-    <a href="#signup" class="cta-button">Donate Now</a>
+    <p class="subheadline">Start Small. Give Big. Change Lives Around the World - 1 drop at a Time</p>
 
-     <div class="image-container">
-     <img src="img/water-can-transparent.png" alt="Water Can" />
+    <div class="cta-wrapper">
+      <img src="img/7255_Ethiopia_2019_CG-.png" alt="Water Icon Left" />
+      <a href="#signup" class="cta-button">Donate Now</a>
+      <img src="img/9342_Ethiopia_2019_CG-.png" alt="Water Icon Right" />
+    </div>
+
+    <div class="image-container">
+      <img src="img/water-can-transparent.png" alt="Water Can" />
     </div>
   </main>
 
 </body>
 </html>
-
